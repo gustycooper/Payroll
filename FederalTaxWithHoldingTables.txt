@@ -1,0 +1,43 @@
+See page 45 of https://www.irs.gov/pub/irs-pdf/p15.pdf
+
+One Withholding Allowance - see page 44
+Weekly - 77.90
+Biweekly - 155.80
+Semimonthly - 168.80
+
+A. Multiply 155.80 by number of withholds on W4
+B. Subtract result of A from biweekly salary.
+C. Use tables described below for withholding.
+
+
+Let X be wages after subtracting withholding allowances
+
+Comma Separated Columns
+1 - Greater than
+2 - Less than or equal to
+3 - base withholding
+4 - percentage that is multiplied times X - column 1
+Example computation for row: 88,447,0,.1
+if (X > 88 && X <= 447) {
+    withHolding = 0 + (X-88)*.1
+
+Biweekly Single
+0,88,0,0
+88,447,0,.1
+447,1548,35.90,.15
+1548,3623,201.05,.25
+3623,7460,719.80,.28
+7460,16115,1794.16,.33
+16115,16181,4650.31,.35
+16181,16181,4673.41,.396
+
+Biweekly Married
+0,333,0,0
+333,1050,0,.1
+1050,3252,71.70,.15
+3252,6221,402.00,.25
+6221,9308,1144.25,.28
+9308,16360,2008.61,.33
+16360,18437,4335.77,.35
+18437,18437,5062.72,.396
+

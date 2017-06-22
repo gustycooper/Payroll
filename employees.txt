@@ -1,0 +1,9 @@
+Wendy,Smith,123-45-6788,1234 Some St.,King George,VA,10.00
+0,0,Married,false
+0,0,0,false
+Sherri,Coke,123-45-6789,1234 Another Ct.,King George,VA,10.00
+2,0,Single,false
+2,0,0,false
+Emilio,Sanchez,123-45-6790,1234 Some Place,Richmond,VA,10.00
+1,0,Single,false
+1,0,0,false
